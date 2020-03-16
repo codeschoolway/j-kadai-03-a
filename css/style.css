@@ -49,6 +49,7 @@ p {
 img.img-alert {
 	width: 14px;
 	height: 13px;
+	margin-top: -13px;
 	margin-left: -2px;
 	margin-right: 4px;
 }
@@ -62,11 +63,18 @@ img.img-alert {
 }
 p.alert-content {
 	color: #2b2b2b;
+	margin-bottom: 14px;
 }
 p.spacing {
 	margin-bottom: 26px;
 }
 .box-input {
+	margin-bottom: 14px;
+}
+#name,
+#furigana,
+#email,
+#pwagain {
 	margin-bottom: 14px;
 }
 .button {
@@ -103,55 +111,29 @@ input {
 	box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
 	outline: 0;
 }
-.a-divider-inner {
-	height: 44px;
-	margin-bottom: -18px;
-	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
-	background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
-	z-index: 0;
-	zoom: 1;
-}
-.a-divider-inner:after {
-	display: block;
-	width: 100%;
-	height: 44px;
-	background-color: transparent;
-	background: -webkit-linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
-	background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
-	z-index: 1;
-	content: "";
-}
 .login-desc {
 	display: flex;
-}
-.login-desc img {
-	width: 15px;
-	height: auto;
 }
 .go-login {
 	font-size: 13px;
 }
-nav, nav p {
+.fa-caret-right {
+	color: #0066c0;
+	font-size: 10px;
+	margin-top: 4px;
+	margin-left: 3px;
+}
+.fa-caret-right:hover {
+	color: #C45500;
+}
+nav, nav p, .footer-nav {
 	font-size: 11px;
 }
-.footer-mini {
+address {
 	text-align: center;
 	color: #555555;
 	font-size: 11px;
-}
-.triangle {
-	margin-top: 7px;
-	margin-left: 5px;
-	border-top: 3px solid transparent;
-	border-right: 3px solid transparent;
-	border-bottom: 3px solid transparent;
-	border-left: 3px solid #0066c0;
-	width: 0;
-	height: 0;
-}
-.triangle:hover {
-	display: block;
-	border-left: 3px solid #6acd77;
+	font-style: normal;
 }
 .footer-nav {
 	display: flex;

@@ -6,60 +6,59 @@
 	<meta content="Amazonの登録画面" name="description">
 	<link href="css/ress.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet">
 	<title>Amazonの登録画面</title>
 </head>
 <body>
 	<main>
-		<div class="wrapper">
+	    <div class="wrapper">
 			<img alt="" class="logo" src="images/amazon_logo.png">
 			<div class="box-inner">
 				<h1 class="title">アカウントを作成</h1>
-				<form action="#" class="">
-					<div class="box-input">
-						<label for="name">名前</label> <input id="name" name="aname" type="text">
+				<form action="#">
+					<label for="name">名前</label>
+					<input id="name" name="aname" type="text">
+				
+					<label for="furigana">フリガナ</label>
+					<input id="furigana" name="afurigana" type="text">
+					
+					<label for="email">Eメールアドレス</label>
+					<input id="email" name="email" type="email">
+
+					<label for="pw">パスワード</label>
+					<input id="pw" name="pw" placeholder="最低6文字必要です" type="password">
+
+					<div class="alert-pw">
+						<img alt="" class="img-alert" src="images/info.png">
+						<p class="alert-content">パスワードの長さは最低6文字です。</p>
 					</div>
-					<div class="box-input">
-						<label for="furigana">フリガナ</label> <input id="furigana" name="afurigana" type="text">
-					</div>
-					<div class="box-input">
-						<label for="email">Eメールアドレス</label> <input id="email" name="email" type="email">
-					</div>
-					<div class="box-input">
-						<label for="pw">パスワード</label> <input id="pw" name="pw" placeholder="最低6文字必要です" type="password">
-						<div class="alert-pw">
-							<img alt="" class="img-alert" src="images/info.png">
-							<p class="alert-content">パスワードの長さは最低6文字です。</p>
-						</div>
-					</div>
-					<div class="box-input">
-						<label class="check-pw" for="pw">もう一度パスワードを入力してください</label> <input id="pw" name="pw" type="password">
-					</div><input class="button" type="submit" value="Amazonアカウントを作成">
+
+					<label class="check-pw" for="pw">もう一度パスワードを入力してください</label>
+					<input id="pwagain" name="pw" type="password">
+
+					<input class="button" type="submit" value="Amazonアカウントを作成">
+
 					<p class="spacing">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライバシー規約</a>に同意したとみなされます。</p>
-					<div class="a-divider-inner"></div>
+
 					<div class="login-desc">
 						<p class="go-login">すでにアカウントをお持ちですか? <a href="#">ログイン</a></p>
-						<div class="triangle"></div>
+						<i class="fas fa-caret-right"></i>
 					</div>
 				</form>
 			</div>
 		</div>
 	</main>
-	<div class="a-divider-inner a-divider-bottom"></div>
 	<footer class="wrapper">
-		<nav>
-			<ul class="footer-nav">
-				<li>
-					<a href="#">利用規約</a>
-				</li>
-				<li>
-					<a href="#">プライバシー規約</a>
-				</li>
-				<li>
-					<a href="#">ヘルプ</a>
-				</li>
-			</ul>
-		</nav>
-		<p class="footer-mini">© 1996-2020, Amazon.com, Inc. or its affiliates</p>
+		<ul class="footer-nav">
+			<li><a href="#">利用規約</a></li>
+			<li>
+				<a href="#">プライバシー規約</a>
+			</li>
+			<li>
+				<a href="#">ヘルプ</a>
+			</li>
+		</ul>
+		<address>© 1996-2020, Amazon.com, Inc. or its affiliates</address>
 	</footer>
 </body>
 </html>
