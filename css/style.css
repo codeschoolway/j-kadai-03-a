@@ -1,169 +1,162 @@
 @charset "UTF-8";
-
 body {
-    font-size: 13px;
-    line-height: 19px;
-    color: #111;
-    font-family: "Hiragino Kaku Gothic Pro W3","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	color: #111;
+	font-family: "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 a, a:active, a:link, a:visited {
-    text-decoration: none;
-    color: #0066c0;
+	text-decoration: none;
+	color: #0066c0;
 }
-a:hover,
-footer a {
-    text-decoration: underline;
-    color: #C45500;
+a:hover, footer a {
+	text-decoration: underline;
+	color: #C45500;
 }
 h1 {
-    margin-bottom: 14px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 1.2;
+	margin-bottom: 14px;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.2;
 }
 .wrapper {
-    max-width: 350px;
-    margin: 0 auto;
+	max-width: 350px;
+	margin: 0 auto;
 }
 .box-inner {
-    margin-top: 8px;
-    padding: 14px 18px;
-    margin-bottom: 26px;
-    border-radius: 4px;
-    border: 1px #ddd solid;
-    background-color: #fff;
+	margin-top: 8px;
+	padding: 14px 18px;
+	margin-bottom: 26px;
+	border-radius: 4px;
+	border: 1px #ddd solid;
+	background-color: #fff;
 }
 .logo {
-    width: 165px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+	width: 165px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 label {
-    display: block;
-    padding: 0 0 2px 2px;
-    font-weight: 700;
+	display: block;
+	padding: 0 0 2px 2px;
+	font-weight: 700;
 }
 p {
-    font-size: 12px;
-    line-height: 1.5;
+	font-size: 12px;
+	line-height: 1.5;
 }
 img.img-alert {
-    width: 14px;
-    height: 13px;
-    margin-left: -2px;
-    margin-right: 4px;
+	width: 14px;
+	height: 13px;
+	margin-left: -2px;
+	margin-right: 4px;
 }
 .alert-pw {
-    margin-top: 4px;
-    display: flex;
-    align-items: center;
+	margin-top: 4px;
+	display: flex;
+	align-items: center;
 }
 .check-pw {
-    font-weight: 700;
+	font-weight: 700;
 }
 p.alert-content {
-    color: #2b2b2b;
+	color: #2b2b2b;
 }
 p.spacing {
-    margin-bottom: 26px;
+	margin-bottom: 26px;
 }
 .box-input {
-    margin-bottom: 14px;
-    
+	margin-bottom: 14px;
 }
 .button {
-    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2);
-    /*box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);*/
-    padding-top: 5px;
-    margin-bottom: 18px;
-    background: #f0c14b;
-    border: 1px solid rgb(194, 11, 11);
-    border-color: #a88734 #9c7e31 #846a29;
-
-    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
-    background-image: linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75));
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+	box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2);
+	padding-top: 5px;
+	margin-bottom: 18px;
+	background: #f0c14b;
+	border: 1px solid rgb(194, 11, 11);
+	border-color: #a88734 #9c7e31 #846a29;
+	background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+	background-image: linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75));
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
 }
 button, input, select, textarea {
-    margin: 0;
-    font-size: 100%;
-    vertical-align: middle;
+	margin: 0;
+	font-size: 100%;
+	vertical-align: middle;
 }
 input {
-    width: 100%;
-    background-color: #fff;
-    height: 31px;
-    padding: 3px 7px;
-    line-height: normal;
-
-    border: 1px solid #a6a6a6;
-    border-top-color: #949494;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
-    outline: 0;
+	width: 100%;
+	background-color: #fff;
+	height: 31px;
+	padding: 3px 7px;
+	line-height: normal;
+	border: 1px solid #a6a6a6;
+	border-top-color: #949494;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+	outline: 0;
 }
 .a-divider-inner {
-    height: 44px;
-    margin-bottom: -18px;
-    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
-    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
-    z-index: 0;
-    zoom: 1;
+	height: 44px;
+	margin-bottom: -18px;
+	background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+	z-index: 0;
+	zoom: 1;
 }
 .a-divider-inner:after {
-    display: block;
-    width: 100%;
-    height: 44px;
-    background-color: transparent;
-    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
-    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
-    z-index: 1;
-    content: "";
+	display: block;
+	width: 100%;
+	height: 44px;
+	background-color: transparent;
+	background: -webkit-linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+	background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+	z-index: 1;
+	content: "";
 }
 .login-desc {
-    display: flex;
+	display: flex;
 }
 .login-desc img {
-    width: 15px;
-    height: auto;
+	width: 15px;
+	height: auto;
 }
 .go-login {
-    font-size: 13px;
+	font-size: 13px;
 }
-nav,
-nav p {
-    font-size: 11px;
+nav, nav p {
+	font-size: 11px;
 }
 .footer-mini {
-    text-align: center;
-    color: #555555;
-    font-size: 11px;
+	text-align: center;
+	color: #555555;
+	font-size: 11px;
 }
-.triangle{
-    margin-top: 7px;
-    margin-left: 5px;
-    border-top: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    border-left: 3px solid #0066c0;
-    width:0;
-    height: 0;
-  }
+.triangle {
+	margin-top: 7px;
+	margin-left: 5px;
+	border-top: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	border-left: 3px solid #0066c0;
+	width: 0;
+	height: 0;
+}
 .triangle:hover {
-      display: block;
-      border-left: 3px solid #6acd77;
-  }
+	display: block;
+	border-left: 3px solid #6acd77;
+}
 .footer-nav {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: auto 66px;
-    margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: auto 66px;
+	margin-bottom: 10px;
 }
