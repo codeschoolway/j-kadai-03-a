@@ -24,18 +24,15 @@ h1 {
 	margin: 0 auto;
 }
 .box-inner {
-	margin-top: 8px;
 	padding: 14px 18px;
 	margin-bottom: 26px;
 	border-radius: 4px;
 	border: 1px #ddd solid;
-	background-color: #fff;
 }
 .logo {
 	width: 165px;
-	height: auto;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 8px;
 }
 label {
 	display: block;
@@ -49,21 +46,19 @@ p {
 img.img-alert {
 	width: 14px;
 	height: 13px;
-	margin-top: -13px;
-	margin-left: -2px;
-	margin-right: 4px;
+	margin-right: 6px;
 }
 .alert-pw {
 	margin-top: 4px;
 	display: flex;
 	align-items: center;
+	margin-bottom: 14px;
 }
 .check-pw {
 	font-weight: 700;
 }
 p.alert-content {
 	color: #2b2b2b;
-	margin-bottom: 14px;
 }
 p.spacing {
 	margin-bottom: 26px;
@@ -85,14 +80,6 @@ p.spacing {
 	border: 1px solid rgb(194, 11, 11);
 	border-color: #a88734 #9c7e31 #846a29;
 	background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
-	background-image: linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75));
-	background-position-x: initial;
-	background-position-y: initial;
-	background-size: initial;
-	background-attachment: initial;
-	background-origin: initial;
-	background-clip: initial;
-	background-color: initial;
 }
 button, input, select, textarea {
 	margin: 0;
@@ -109,7 +96,6 @@ input {
 	border-top-color: #949494;
 	border-radius: 3px;
 	box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
-	outline: 0;
 }
 .login-desc {
 	display: flex;
@@ -139,6 +125,7 @@ address {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	margin: auto 66px;
+	margin-right: 66px;
+	margin-left: 66px;
 	margin-bottom: 10px;
 }
