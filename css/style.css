@@ -108,6 +108,6 @@ address {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	margin: 0 66px 10px 66px;
+	margin: 0 66px 10px;
 	font-size: 11px;
 }
