@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Amazonの登録画面" name="description">
+	<link href="css/ress.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<title>Amazonの登録画面</title>
+</head>
+<body>
+	<main>
+	    <div class="wrapper">
+			<img alt="" class="logo" src="images/amazon_logo.png">
+			<div class="box-inner">
+				<h1 class="title">アカウントを作成</h1>
+				<form action="#">
+					<label for="name">名前</label>
+					<input id="name" name="aname" type="text">
+				
+					<label for="furigana">フリガナ</label>
+					<input id="furigana" name="afurigana" type="text">
+					
+					<label for="email">Eメールアドレス</label>
+					<input id="email" name="email" type="email">
+
+					<label for="pw">パスワード</label>
+					<input id="pw" name="pw" placeholder="最低6文字必要です" type="password">
+
+					<div class="alert-pw">
+						<img alt="" class="img-alert" src="images/info.png">
+						<p class="alert-content">パスワードの長さは最低6文字です。</p>
+					</div>
+
+					<label class="check-pw" for="pw">もう一度パスワードを入力してください</label>
+					<input id="pwagain" name="pw" type="password">
+
+					<input class="button" type="submit" value="Amazonアカウントを作成">
+
+					<p class="spacing">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライバシー規約</a>に同意したとみなされます。</p>
+
+					<div class="login-desc">
+						<p class="go-login">すでにアカウントをお持ちですか? <a href="#">ログイン</a></p>
+						<i class="fas fa-caret-right"></i>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class="wrapper">
+		<ul class="footer-nav">
+			<li><a href="#">利用規約</a></li>
+			<li><a href="#">プライバシー規約</a></li>
+			<li><a href="#">ヘルプ</a></li>
+		</ul>
+		<address>© 1996-2020, Amazon.com, Inc. or its affiliates</address>
+	</footer>
+</body>
+</html>
